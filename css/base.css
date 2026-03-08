@@ -1,0 +1,33 @@
+/* To use this css file, check base.html in the html folder */
+
+/* This example changes HTML element based on element name */
+p {
+  text-align: center;
+  color: red;
+}
+
+/* This example changes HTML element based on the id attribute */
+#para1 {
+  text-align: left;
+  color: yellow;
+}
+
+/* This example changes HTML element based on a specific class name */
+.center {
+  text-align: right;
+  color: green;
+}
+
+/* You can also specefy on element in a class like these 2 below */
+p.center {
+  text-align: left;
+  color: blue;
+}
+
+#para1.center {
+  text-align: center;
+  color: purple;
+}
+
+/* for all properties check: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Propertie */
+
